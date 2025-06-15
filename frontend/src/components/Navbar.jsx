@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const navbar = () => {
   return (
     <div>
@@ -20,17 +21,19 @@ const navbar = () => {
 
             {/* Navbar icons */}
             <div className='nav__icons relative'>
-                <span>
-                    <Link>
-                        <i className="ri-search-line"></i>
+                 <span>
+                    <Link to="/search">
+                        <i className="ri-search-2-line"></i>
                     </Link>
                 </span>
+                
                 <span>
                     <button className='hover:text-primary'>
                         <i className="ri-shopping-cart-line"></i>
                         <sup className='text-sm inline-block px-1.5 text-white rounded-full bg-primary text-center'>0</sup>
                     </button>
                 </span>
+            
                 <span>
                     <Link to="login">
                         <i className="ri-user-line"></i>
