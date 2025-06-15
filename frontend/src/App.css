@@ -375,7 +375,7 @@ nav {
   margin-bottom: 1rem;
   display: inline-block;
   font-size: 2rem;
-  color: var(--primary-color);
+  color:rgb(110, 14, 110);
 }
 
 .banner__card h4 {
