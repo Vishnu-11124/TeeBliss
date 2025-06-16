@@ -35,7 +35,7 @@ const Footer = () => {
         <div className='footer__col'>
             <h4>SOCIAL LINKS</h4>
             <a href="/"><i className="ri-instagram-fill"></i> teebliss_</a>
-            <a href="/"><i class="ri-twitter-x-fill"></i> tee_bliss</a>
+            <a href="/"><i className="ri-twitter-x-fill"></i> tee_bliss</a>
         </div>
 
         {/* ---- more info ---- */}
